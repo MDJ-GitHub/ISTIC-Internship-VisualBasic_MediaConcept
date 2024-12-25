@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EtiquetteExport" msprop:Generator_TableClassName="EtiquetteExportDataTable" msprop:Generator_TableVarName="tableEtiquetteExport" msprop:Generator_TablePropName="EtiquetteExport" msprop:Generator_RowDeletingName="EtiquetteExportRowDeleting" msprop:Generator_RowChangingName="EtiquetteExportRowChanging" msprop:Generator_RowEvHandlerName="EtiquetteExportRowChangeEventHandler" msprop:Generator_RowDeletedName="EtiquetteExportRowDeleted" msprop:Generator_UserTableName="EtiquetteExport" msprop:Generator_RowChangedName="EtiquetteExportRowChanged" msprop:Generator_RowEvArgName="EtiquetteExportRowChangeEvent" msprop:Generator_RowClassName="EtiquetteExportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Modele" msprop:Generator_ColumnVarNameInTable="columnModele" msprop:Generator_ColumnPropNameInRow="Modele" msprop:Generator_ColumnPropNameInTable="ModeleColumn" msprop:Generator_UserColumnName="Modele" type="xs:string" minOccurs="0" />
+              <xs:element name="NumPaquet" msprop:Generator_ColumnVarNameInTable="columnNumPaquet" msprop:Generator_ColumnPropNameInRow="NumPaquet" msprop:Generator_ColumnPropNameInTable="NumPaquetColumn" msprop:Generator_UserColumnName="NumPaquet" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantite" msprop:Generator_ColumnVarNameInTable="columnQuantite" msprop:Generator_ColumnPropNameInRow="Quantite" msprop:Generator_ColumnPropNameInTable="QuantiteColumn" msprop:Generator_UserColumnName="Quantite" type="xs:string" minOccurs="0" />
+              <xs:element name="Variante" msprop:Generator_ColumnVarNameInTable="columnVariante" msprop:Generator_ColumnPropNameInRow="Variante" msprop:Generator_ColumnPropNameInTable="VarianteColumn" msprop:Generator_UserColumnName="Variante" type="xs:string" minOccurs="0" />
+              <xs:element name="Client" msprop:Generator_ColumnVarNameInTable="columnClient" msprop:Generator_ColumnPropNameInRow="Client" msprop:Generator_ColumnPropNameInTable="ClientColumn" msprop:Generator_UserColumnName="Client" type="xs:string" minOccurs="0" />
+              <xs:element name="Saison" msprop:Generator_ColumnVarNameInTable="columnSaison" msprop:Generator_ColumnPropNameInRow="Saison" msprop:Generator_ColumnPropNameInTable="SaisonColumn" msprop:Generator_UserColumnName="Saison" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Commande" msprop:Generator_ColumnVarNameInTable="columnCommande" msprop:Generator_ColumnPropNameInRow="Commande" msprop:Generator_ColumnPropNameInTable="CommandeColumn" msprop:Generator_UserColumnName="Commande" type="xs:string" minOccurs="0" />
+              <xs:element name="Destination" msprop:Generator_ColumnVarNameInTable="columnDestination" msprop:Generator_ColumnPropNameInRow="Destination" msprop:Generator_ColumnPropNameInTable="DestinationColumn" msprop:Generator_UserColumnName="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="Taille" msprop:Generator_ColumnVarNameInTable="columnTaille" msprop:Generator_ColumnPropNameInRow="Taille" msprop:Generator_ColumnPropNameInTable="TailleColumn" msprop:Generator_UserColumnName="Taille" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EtiquetteExportR" msprop:Generator_TableClassName="EtiquetteExportRDataTable" msprop:Generator_TableVarName="tableEtiquetteExportR" msprop:Generator_TablePropName="EtiquetteExportR" msprop:Generator_RowDeletingName="EtiquetteExportRRowDeleting" msprop:Generator_RowChangingName="EtiquetteExportRRowChanging" msprop:Generator_RowEvHandlerName="EtiquetteExportRRowChangeEventHandler" msprop:Generator_RowDeletedName="EtiquetteExportRRowDeleted" msprop:Generator_UserTableName="EtiquetteExportR" msprop:Generator_RowChangedName="EtiquetteExportRRowChanged" msprop:Generator_RowEvArgName="EtiquetteExportRRowChangeEvent" msprop:Generator_RowClassName="EtiquetteExportRRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Modele" msprop:Generator_ColumnVarNameInTable="columnModele" msprop:Generator_ColumnPropNameInRow="Modele" msprop:Generator_ColumnPropNameInTable="ModeleColumn" msprop:Generator_UserColumnName="Modele" type="xs:string" minOccurs="0" />
+              <xs:element name="NumPaquet" msprop:Generator_ColumnVarNameInTable="columnNumPaquet" msprop:Generator_ColumnPropNameInRow="NumPaquet" msprop:Generator_ColumnPropNameInTable="NumPaquetColumn" msprop:Generator_UserColumnName="NumPaquet" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantite" msprop:Generator_ColumnVarNameInTable="columnQuantite" msprop:Generator_ColumnPropNameInRow="Quantite" msprop:Generator_ColumnPropNameInTable="QuantiteColumn" msprop:Generator_UserColumnName="Quantite" type="xs:string" minOccurs="0" />
+              <xs:element name="Variante" msprop:Generator_ColumnVarNameInTable="columnVariante" msprop:Generator_ColumnPropNameInRow="Variante" msprop:Generator_ColumnPropNameInTable="VarianteColumn" msprop:Generator_UserColumnName="Variante" type="xs:string" minOccurs="0" />
+              <xs:element name="Client" msprop:Generator_ColumnVarNameInTable="columnClient" msprop:Generator_ColumnPropNameInRow="Client" msprop:Generator_ColumnPropNameInTable="ClientColumn" msprop:Generator_UserColumnName="Client" type="xs:string" minOccurs="0" />
+              <xs:element name="Saison" msprop:Generator_ColumnVarNameInTable="columnSaison" msprop:Generator_ColumnPropNameInRow="Saison" msprop:Generator_ColumnPropNameInTable="SaisonColumn" msprop:Generator_UserColumnName="Saison" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Commande" msprop:Generator_ColumnVarNameInTable="columnCommande" msprop:Generator_ColumnPropNameInRow="Commande" msprop:Generator_ColumnPropNameInTable="CommandeColumn" msprop:Generator_UserColumnName="Commande" type="xs:string" minOccurs="0" />
+              <xs:element name="Destination" msprop:Generator_ColumnVarNameInTable="columnDestination" msprop:Generator_ColumnPropNameInRow="Destination" msprop:Generator_ColumnPropNameInTable="DestinationColumn" msprop:Generator_UserColumnName="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="Taille" msprop:Generator_ColumnVarNameInTable="columnTaille" msprop:Generator_ColumnPropNameInRow="Taille" msprop:Generator_ColumnPropNameInTable="TailleColumn" msprop:Generator_UserColumnName="Taille" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
